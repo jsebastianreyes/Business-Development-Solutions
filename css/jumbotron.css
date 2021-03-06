@@ -1,0 +1,201 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: 2E4158;
+  background:  #fbfeff;
+}
+
+.img-hero{
+  background: url(../images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding-bottom: 5em;
+  margin-bottom: 3em;
+
+
+  height: 38rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.text-hero{
+  color:#2DC4F1;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.img-hero h1{
+  font-weight: bold;
+  font-size: 2.8rem;
+  line-height: 2.7rem;
+  margin-bottom: 2rem;
+}
+
+.collapse{
+  justify-content: flex-end;
+}
+
+.nav-link{
+  color: #2E4158;
+  font-weight: 600;
+  padding: .5rem 1.2rem  !important;
+}
+
+.navbar{
+      background-color: #f8f9fade  !important;
+}
+
+.link-contact{
+ background: #40BDA7;
+ color: #fff  !important;
+ margin-left: 2em;
+ border-radius: 2rem;
+
+ box-shadow: 0px 3px 7px 0px #40bda7;
+}
+
+.btn-readmore{
+   background: #40BDA7;
+   color: #fff;
+   border-radius: 2rem;
+   border:0px;
+   font-weight: 600;
+   font-size: 1.4rem;
+   padding: .5rem 2rem;
+}
+
+.title-section{
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5rem;
+
+}
+
+.title-section::after{
+  content: "";
+  display: block;
+  margin: auto;
+  width: 14rem;
+  height: 5px;
+  background: linear-gradient(90deg, #40BDA7, #2DC4F1);
+  border-radius: 2rem;
+}
+
+.section-services{
+  margin-top: 4rem;
+}
+
+.service{
+  background:#fff;
+  padding: 2em;
+  text-align: center;
+
+  box-shadow: 0px 0px 7px 0px #ccc;
+
+  margin-bottom: 2rem;
+}
+
+.service h5{
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.service h6{
+  color: #40BDA7;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.service p:last-child{
+  font-size: .8rem;
+  color:#2E4158;
+  line-height: 1rem;
+}
+
+.form-circle{
+position: absolute;
+}
+
+.icon-service{
+  margin-bottom: 3em;
+  position: relative;
+  z-index: 2;
+  top:1.5em;
+  left:1.5em;
+}
+
+footer{
+  background: #2E4158;
+  padding: 1.5rem 0;
+  color:#fff;
+}
+
+.mail{
+  font-size: 1.6rem;
+  color:#2DC4F1;
+  font-weight: 600;
+}
+
+.contact-us{
+  margin: 3rem 0;
+}
+
+.background-contact{
+  height: 25rem;
+  background:url(/images/contact-us.jpg);
+  border-radius: 0px 1rem 1rem 0px;
+  background-repeat: no-repeat;
+}
+
+.content-contact{
+  text-align: center;
+  margin-top: 6rem;
+}
+
+footer .row{
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-social img{
+  width: 22px;
+  height: 22px;
+}
+
+.icons-social{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+footer p{
+  line-height: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+
+
+/*Media Querys*/
+
+@media (max-width: 768px){
+  .logo-footer{
+  margin-bottom: 1rem;
+
+  }
+  .img-hero h1{
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .link-contact{
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .icons-social{
+    margin-top: 1rem;
+  }
+}
