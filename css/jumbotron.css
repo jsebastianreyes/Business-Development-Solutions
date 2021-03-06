@@ -144,7 +144,7 @@ footer{
 
 .background-contact{
   height: 25rem;
-  background:url(/images/contact-us.jpg);
+  background:url(../images/contact-us.jpg);
   border-radius: 0px 1rem 1rem 0px;
   background-repeat: no-repeat;
 }
