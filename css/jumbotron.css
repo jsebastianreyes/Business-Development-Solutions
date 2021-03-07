@@ -55,6 +55,16 @@ body {
  box-shadow: 0px 3px 7px 0px #40bda7;
 }
 
+.nav-link:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+ .link-contact:hover, .btn-readmore:hover{
+  background: #61c0cb !important;
+  transform: scale(1.1);
+}
+
 .btn-readmore{
    background: #40BDA7;
    color: #fff;
@@ -63,6 +73,7 @@ body {
    font-weight: 600;
    font-size: 1.4rem;
    padding: .5rem 2rem;
+   transition: 1s;
 }
 
 .title-section{
@@ -112,6 +123,7 @@ body {
   font-size: .8rem;
   color:#2E4158;
   line-height: 1rem;
+  min-height: 3.3rem;
 }
 
 .form-circle{
@@ -136,8 +148,18 @@ footer{
   font-size: 1.6rem;
   color:#2DC4F1;
   font-weight: 600;
+  transition: 1s;
 }
 
+.icons-social a:hover{
+  transform: scale(1.2);
+}
+
+.mail:hover{
+  text-decoration: none;
+  color:#2DC4F1;
+  font-size: 1.8rem;
+}
 .contact-us{
   margin: 3rem 0;
 }
@@ -193,7 +215,10 @@ footer p{
   .link-contact{
     margin-left: 0;
     margin-bottom: 2rem;
+    transition: 1s;
+    width: fit-content;
   }
+
 
   .icons-social{
     margin-top: 1rem;
